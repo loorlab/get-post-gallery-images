@@ -19,7 +19,7 @@ Version: 0.1
  * @since           Get Post Gallery Images 0.1
  */
 
-function get_post_gallery_images() {
+function get_post_gallery_images_gpgi() {
     $attachment_ids = array();
     $pattern = get_shortcode_regex();
     $images = array();
