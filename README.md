@@ -14,7 +14,7 @@ For the instance this is just images list generation for the Imageflow gallery:
 
     <div id="gal" class="imageflow">
         <?php if (have_posts()) : while (have_posts()) : the_post();?>
-            <?php $galleryImages = get_post_gallery_images(); 
+            <?php $galleryImages = get_post_gallery_images_gpgi(); 
               $imagesCount = count($galleryImages);
             ?>
             <?php if ($imagesCount > 0) : ?>
